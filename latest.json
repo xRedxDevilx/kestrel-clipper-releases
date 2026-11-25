@@ -1,8 +1,8 @@
 {
-  "version": "0.0.0",
-  "url": "",
-  "sha256": "",
-  "size": 0,
+  "version": "9.9.9",
+  "url": "https://github.com/xRedxDevilx/kestrel-clipper-releases/raw/main/test-payload.bin",
+  "sha256": "8035da6b947d26bc9608ca666ec5a93c2915ae9fbec5ec78f99629c1e69290f4",
+  "size": 5000000,
   "page": "https://github.com/xRedxDevilx/kestrel-clipper-releases/releases/latest",
-  "notes": "Placeholder - replaced when the first release is published."
+  "notes": "TEST ENTRY - verifying the in-app updater before the first real release."
 }
