@@ -9,6 +9,9 @@ Everything runs on your own PC. Your footage is never uploaded to anyone's serve
 New here? Follow the **[setup guide](docs/SETUP.md)** — it walks through the install, including the blue
 Windows warning you will see, and getting your first clip.
 
+Want to understand what everything does? The **[full manual](docs/MANUAL.md)** covers every page and setting,
+what the AI costs to run, and how to get better clips out of it.
+
 ---
 
 ## What it does
