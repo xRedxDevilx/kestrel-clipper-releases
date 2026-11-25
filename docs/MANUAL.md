@@ -540,8 +540,9 @@ going direct would mean nothing you posted was public.
 
 1. Sign up at [upload-post.com](https://upload-post.com) and connect your TikTok / Instagram / YouTube there.
 2. Copy the **API key** into Kestrel, and the **profile name** your accounts are linked to — that's the profile
-   name, not your email.
-3. Tick the platforms.
+   name (it's `default` unless you changed it), not your email.
+3. Tick the platforms. **Only tick ones you have actually connected** — a platform that is ticked here but not
+   connected over there fails every time, and the error you get back says very little.
 4. **Check setup** runs through everything that can be checked without posting: key present, platforms chosen,
    captions within limits, the clip has somewhere to go, room left in today's caps.
 
@@ -552,10 +553,28 @@ receipt. Do that before you rely on it.
 **Instagram direct** is an alternative: connect Meta's own API and Instagram posts go straight there, bypassing
 Upload-Post for that platform.
 
+### Which Upload-Post plan you need
+
+Read this before you plan your posting, because the free plan will not carry a clipping channel.
+
+| | |
+| --- | --- |
+| **Free** | **10 uploads a month**, and **TikTok is not included**. Fine for testing the connection; nothing more |
+| **Paid** | What you need for TikTok, and for any volume worth the name. Check [their pricing](https://upload-post.com/#pricing) for current rates |
+
+The gap is worth being blunt about: Kestrel's own cap is **15 TikTok posts a day**. The free plan is 10 a
+*month*, across all platforms. If you intend to post daily — and posting daily is the whole point, it's what
+the Trends page keeps telling you — you need the paid plan from the start. Budget for it alongside your AI key.
+
+One note on connecting: a platform can show as connected on your Upload-Post profile and still not be offered
+when you go to post, which usually means your plan doesn't include it. Trust the platform picker, not the
+summary line.
+
 ### Daily caps
 
 Fifteen TikTok, ten YouTube, fifty Instagram per day. These are the app's own caps, set below the platforms'
-limits to keep your accounts out of trouble. When one is reached, the rest wait.
+own limits to keep your accounts out of trouble. When one is reached, the rest wait. They sit **on top of**
+whatever your Upload-Post plan allows — the lower of the two wins.
 
 ### Why YouTube is treated differently
 
