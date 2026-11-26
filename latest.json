@@ -1,8 +1,8 @@
 {
-  "version": "1.4.1",
-  "url": "https://github.com/xRedxDevilx/kestrel-clipper-releases/releases/download/v1.4.1/Kestrel.Clipper.Setup.1.4.1.exe",
-  "sha256": "9f060f20d4c1cf4656033f60a5e284751678aa805725d19d982f99a8ce1e9836",
-  "size": 179410290,
-  "page": "https://github.com/xRedxDevilx/kestrel-clipper-releases/releases/tag/v1.4.1",
-  "notes": "Seven-day free trial that starts at your first clip, sharper clip judging with examples per stream type, a publishing preflight that tells you what's missing before you post, and default pickiness lowered to 60."
+  "version": "1.4.2",
+  "url": "https://github.com/xRedxDevilx/kestrel-clipper-releases/releases/download/v1.4.2/Kestrel.Clipper.Setup.1.4.2.exe",
+  "sha256": "a2fe25c5903cd8b7ea46a42af76ffb014926151ef83c9ef18cdd5073e3b89c26",
+  "size": 179635641,
+  "page": "https://github.com/xRedxDevilx/kestrel-clipper-releases/releases/tag/v1.4.2",
+  "notes": "Fixes a bug that could silently stop the clipper after a GPU install, stops good clips being discarded by the hourly cap or a daily platform limit, and lets you publish through your own tool instead of only Upload-Post."
 }
