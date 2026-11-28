@@ -1,5 +1,43 @@
 # Changelog
 
+## 1.4.3 — 28 November 2026
+
+## Review your reels before rendering
+
+Edit and save the script, title, caption and hashtags; preview narration; replace or reorder shots; and render the reviewed draft. Reopen drafts and active renders without losing your edits.
+
+## Clearer collection and editing
+
+- Today shows whether ideas and B-roll are collecting, when they last saved, and why a recent check saved nothing.
+- Hot clips use your selected AI for analysis and copy, with a clear basic-copy fallback when analysis is unavailable.
+- Review explains empty filter results and offers Clear filters. Card actions fit narrower windows.
+- Clip Studio preserves saved crop positions and avoids false unsaved-change warnings.
+- Voice previews include a playable sample and useful generation or connection feedback.
+
+## Campaigns, publishing and reliability
+
+- Campaign imports expose differences between discovery results and the fetched brief, preserve manual edits, and require another review when the brief changes.
+- Improved platform parsing, posting dates and streak calculations.
+- Webhook delivery respects explicit rejection, retains successful platform receipts, and carries a stable retry identifier for receivers that support deduplication.
+- Deferred posts respect publishing being switched off, rejected clips and rolling daily limits.
+- Reset makes a consistent database backup, protects attribution and activation, and refuses to run during active background work.
+- GPU status distinguishes downloaded libraries, CPU use, restart requirements and a passed GPU check.
+- Fixed update-and-restart handling and preserved existing Windows activation/trial identities during upgrade.
+
+## Checked before release
+
+- 655 Python tests plus 94 subtests and 23 Node checks passed; the separate Whisper test was excluded, while real speech transcription was exercised in live capture.
+- Fresh live testing produced an automatic 42.8-second clip, a manual 30-second clip, nine reel ideas, eight automatic B-roll shots and one manual shot. All 20 exported video files decoded without errors. Chrome playback and the embedded live player were checked.
+- A clean Windows runner installed 1.4.2, downloaded and installed this update over verified HTTPS, checked activation and data preservation, exercised the new updater and cold restarts, and confirmed an expired trial stayed expired.
+
+## Updating
+
+Use the Windows Setup installer below or the in-app update controls. Saved clips, database and settings are retained. If an older installation's network adapter changed before this first upgrade and its key is already refused, reset its device binding in your Whop membership settings and activate again.
+
+Review generated framing, captions and content labels before posting. Cloud services and social destinations require your own configured accounts. Delivery acceptance used an isolated local receiver; public posting to unconfigured accounts is unverified.
+
+**Installer SHA-256:** `498ab18f0e06b57e599b803bf20163d83f8fec0fe31d77f904629cbd3358d76e`
+
 ## 1.3.5 - 25 November 2026
 
 - Quit from the tray now closes the dashboard window and the app. The window is opened under the app's own browser profile, so it is a process Kestrel owns and can close; anything still recording is stopped and the process always exits.

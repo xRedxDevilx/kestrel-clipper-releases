@@ -1,8 +1,8 @@
 {
-  "version": "1.4.2",
-  "url": "https://github.com/xRedxDevilx/kestrel-clipper-releases/releases/download/v1.4.2/Kestrel.Clipper.Setup.1.4.2.exe",
-  "sha256": "a2fe25c5903cd8b7ea46a42af76ffb014926151ef83c9ef18cdd5073e3b89c26",
-  "size": 179635641,
-  "page": "https://github.com/xRedxDevilx/kestrel-clipper-releases/releases/tag/v1.4.2",
-  "notes": "Fixes a bug that could silently stop the clipper after a GPU install, stops good clips being discarded by the hourly cap or a daily platform limit, and lets you publish through your own tool instead of only Upload-Post."
+  "version": "1.4.3",
+  "url": "https://github.com/xRedxDevilx/kestrel-clipper-releases/releases/download/v1.4.3/Kestrel.Clipper.Setup.1.4.3.exe",
+  "sha256": "498ab18f0e06b57e599b803bf20163d83f8fec0fe31d77f904629cbd3358d76e",
+  "size": 179736920,
+  "page": "https://github.com/xRedxDevilx/kestrel-clipper-releases/releases/tag/v1.4.3",
+  "notes": "Reviewed reel drafts, clearer idea/B-roll collection, Hot clip AI analysis, campaign import checks, publishing retries and update/activation reliability fixes."
 }
